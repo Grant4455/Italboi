@@ -164,3 +164,11 @@ ITA_spr_have_to_be_fascist:0 "To view the effect, Spain must be a nationalist re
 ITA_mussolini_dies:0 "Mussolini will die"
 ITA_africore:0 "§GThis will unlock decisions regarding settling, industrializing, and coring the Libyan Coast!§!"
 ITA_africore2:0 "§GThis will unlock decisions regarding settling, industrializing, and coring Inner Libya!§!"
+
+############################ Africore Decisions
+
+ITA_core_tripoli:0 "Settle and Industrialize Tripoli"
+ITA_core_el_agheila:0 "Settle and Industrialize El Agheila"
+ITA_core_benghasi:0 "Settle and Industrialize Benghasi"
+ITA_colonialism:0 "Italianization Program"
+ITA_core_Derna:0 "Settle and Industrialize Derna"
