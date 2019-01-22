@@ -937,7 +937,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ITA_leave_allies
 		}
-		x = 24
+		x = 20
 		y = 2
 		available = {
 		has_idea = GER_economic_boom
@@ -963,7 +963,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_remain_with_allies
 		}
-		x = 21
+		x = 20
 		y = 3
 		completion_reward = {
 		add_stability = 0.1
@@ -977,7 +977,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_diplomatic_missions
 		}
-		x = 20
+		x = 19
 		y = 4
 		available = {
 		NOT = { has_war_with = FRA }
@@ -1014,7 +1014,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_mission_to_FRA
 		}
-		x = 19
+		x = 18
 		y = 5
 		available = {
 		is_in_faction_with = FRA
@@ -1056,7 +1056,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_mission_to_UK
 		}
-		x = 23
+		x = 22
 		y = 5
 		available = {
 		is_in_faction_with = ENG
@@ -1075,7 +1075,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ITA_remain_with_allies
 		}
-		x = 26
+		x = 30
 		y = 2
 		available = {
 		has_idea = GER_economic_boom
@@ -1083,6 +1083,30 @@ focus_tree = {
 		completion_reward = {
 		#remove_ideas = ITA_economic_dependence_allies
 		set_rule = { can_create_factions = yes }
+		}
+	}
+	focus = {
+		id = ITA_core_africa
+		icon = GFX_goal_generic_trade
+		cost = 10.00
+		prerequisite = {
+			focus = ITA_economic_boom
+		}
+		x = 24
+		y = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ITA_core_africa_2
+		icon = GFX_goal_generic_trade
+		cost = 10.00
+		prerequisite = {
+			focus = ITA_core_africa
+		}
+		x = 24
+		y = 7
+		completion_reward = {
 		}
 	}
 	focus = {
@@ -1860,7 +1884,7 @@ focus_tree = {
 			focus = ITA_mission_to_FRA
 			focus = ITA_mission_to_UK
 		}
-		x = 21
+		x = 20
 		y = 5
 		available = {
 		is_in_faction_with = ENG 
