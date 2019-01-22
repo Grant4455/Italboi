@@ -1095,6 +1095,7 @@ focus_tree = {
 		x = 24
 		y = 6
 		completion_reward = {
+		custom_effect_tooltip = ITA_africore
 		}
 	}
 	focus = {
@@ -1107,6 +1108,7 @@ focus_tree = {
 		x = 24
 		y = 7
 		completion_reward = {
+		custom_effect_tooltip = ITA_africore2
 		}
 	}
 	focus = {
