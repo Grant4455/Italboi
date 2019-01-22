@@ -11,6 +11,7 @@ ITA_colonialism = {
 		available = {
 			has_completed_focus = ITA_core_africa
 			owns_state = 448
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
@@ -27,6 +28,10 @@ ITA_colonialism = {
 		}
 
 		days_remove = 80
+
+		modifier = {
+			civilian_factory_use = 3
+		}
 
 		remove_effect = {
 		448 = {
@@ -63,6 +68,7 @@ ITA_colonialism = {
 		available = {
 			has_completed_focus = ITA_core_africa
 			owns_state = 449
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
@@ -77,6 +83,10 @@ ITA_colonialism = {
 		}
 
 		days_remove = 80
+
+		modifier = {
+			civilian_factory_use = 3
+		}
 
 		remove_effect = {
 		449 = {
@@ -116,6 +126,7 @@ ITA_colonialism = {
 		available = {
 			has_completed_focus = ITA_core_africa
 			owns_state = 450
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
@@ -130,6 +141,10 @@ ITA_colonialism = {
 		}
 
 		days_remove = 80
+
+		modifier = {
+			civilian_factory_use = 3
+		}
 
 		remove_effect = {
 		450 = {
@@ -166,6 +181,7 @@ ITA_colonialism = {
 		available = {
 			has_completed_focus = ITA_core_africa
 			owns_state = 451
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
@@ -180,6 +196,10 @@ ITA_colonialism = {
 		}
 
 		days_remove = 80
+
+		modifier = {
+			civilian_factory_use = 3
+		}
 
 		remove_effect = {
 		451 = {
@@ -217,6 +237,7 @@ ITA_colonialism = {
 		available = {
 			has_completed_focus = ITA_core_africa_2
 			owns_state = 661
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
@@ -227,6 +248,10 @@ ITA_colonialism = {
 		}
 
 		days_remove = 80
+
+		modifier = {
+			civilian_factory_use = 3
+		}
 
 		remove_effect = {
 		661 = {
@@ -262,6 +287,7 @@ ITA_colonialism = {
 		available = {
 			has_completed_focus = ITA_core_africa_2
 			owns_state = 662
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
@@ -272,6 +298,10 @@ ITA_colonialism = {
 		}
 
 		days_remove = 80
+
+		modifier = {
+			civilian_factory_use = 3
+		}
 
 		remove_effect = {
 		662 = {
@@ -302,6 +332,7 @@ ITA_colonialism = {
 		available = {
 			has_completed_focus = ITA_core_africa_2
 			owns_state = 663
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
@@ -312,6 +343,10 @@ ITA_colonialism = {
 		}
 
 		days_remove = 80
+
+		modifier = {
+			civilian_factory_use = 3
+		}
 
 		remove_effect = {
 		663 = {
@@ -342,6 +377,7 @@ ITA_colonialism = {
 		available = {
 			has_completed_focus = ITA_core_africa
 			owns_state = 452
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
@@ -352,6 +388,10 @@ ITA_colonialism = {
 		}
 
 		days_remove = 80
+
+		modifier = {
+			civilian_factory_use = 3
+		}
 
 		remove_effect = {
 		452 = {
@@ -387,6 +427,7 @@ ITA_colonialism = {
 		available = {
 			has_completed_focus = ITA_core_africa
 			owns_state = 665
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
@@ -397,6 +438,10 @@ ITA_colonialism = {
 		}
 
 		days_remove = 80
+
+		modifier = {
+			civilian_factory_use = 3
+		}
 
 		remove_effect = {
 		665 = {
@@ -432,6 +477,7 @@ ITA_colonialism = {
 		available = {
 			owns_state = 103
 			date > 1938.1.1
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
@@ -442,6 +488,10 @@ ITA_colonialism = {
 		}
 
 		days_remove = 80
+
+		modifier = {
+			civilian_factory_use = 3
+		}
 
 		remove_effect = {
 		103 = {
@@ -476,20 +526,26 @@ ITA_colonialism = {
 		available = {
 			owns_state = 164
 			has_completed_focus = ITA_economic_boom
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		complete_effect = {
-		159 = {add_manpower = -300000}
-		158 = {add_manpower = -200000}
-		115 = {add_manpower = -200000}
-		160 = {add_manpower = -300000}
+		159 = {add_manpower = -30000}
+		158 = {add_manpower = -20000}
+		115 = {add_manpower = -20000}
+		160 = {add_manpower = -30000}
+
 		}
 
 		days_remove = 80
 
+		modifier = {
+			civilian_factory_use = 3
+		}
+
 		remove_effect = {
 		164 = {
-			add_manpower = 1000000
+			add_manpower = 100000
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
     			type = industrial_complex
