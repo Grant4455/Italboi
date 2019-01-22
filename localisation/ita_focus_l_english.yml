@@ -134,7 +134,7 @@ ITA_war_SWI_desc:0 "Switzerland is a pimple on Europe. Let us squeeze it out of 
 ITA_roman_empire:0 "The New Roman Empire"
 ITA_roman_empire_desc:0 "Cetero Censeo Europa Esse Delendam"
 ITA_core_africa:0 "Continue Italinization of North Africa"
-ITA_core_africa_desc:0 "Now that our economy has been fixed, we may continue our plans of settling Italians and building up industry in North Africa, to "Italianize" them."
+ITA_core_africa_desc:0 "Now that our economy has been fixed, we may continue our plans of settling Italians and building up industry in North Africa, to "Italianize" them under the plans of Italo Balbo."
 ITA_core_africa_2:0 "Italianize Inner Libya"
 ITA_core_africa_2_desc:0 "With recent developments in both mining and farming equipment, we can now both bring the people of the Libyan Desert into the fold, and extract the untouched bounty of their homeland."
 ##################################
@@ -180,3 +180,4 @@ ITA_core_libyan_desert:0 "Settle and Industrialize The Libyan Desert"
 ITA_core_marsa_matruh:0 "Settle and Industrialize Marsa Matruh"
 ITA_core_western_desert:0 "Settle and Industrialize The Western Desert"
 ITA_core_dodecanese:0 "Settle and Industrialize Dodecanese"
+ITA_colonialism_desc:0 "With newfound funding and a recovered economy, Italo Balbo has come to us asking to continue the program of "Italianizing" our holdings in Africa and the Greater Mediterranian"
