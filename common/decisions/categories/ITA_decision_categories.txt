@@ -1,0 +1,15 @@
+#################
+####  ITALY  ####
+#################
+
+ITA_colonialism = {
+	icon = generic_operation
+
+	picture = GFX_decision_cat_generic_mefo_bills
+
+	allowed = {
+		original_tag = ITA
+	}
+}
+
+

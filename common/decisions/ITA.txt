@@ -1,0 +1,503 @@
+ITA_colonialism = {
+	
+	ITA_core_tripoli = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			has_completed_focus = ITA_core_africa
+			owns_state = 448
+		}
+
+		complete_effect = {
+		156 = {add_manpower = -20000}
+		117 = {add_manpower = -20000}
+		774 = {add_manpower = -20000}
+		157 = {add_manpower = -20000}
+		2 = {add_manpower = -20000}
+		776 = {add_manpower = -20000}
+		775 = {add_manpower = -20000}
+		162 = {add_manpower = -20000}
+		161 = {add_manpower = -20000}
+		773 = {add_manpower = -20000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		448 = {
+			add_manpower = 200000
+			add_extra_state_shared_building_slots = 2 
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 1
+    			instant_build = yes
+			}
+			add_building_construction = {
+    			type = dockyard
+    			level = 1
+    			instant_build = yes
+			}
+			add_building_construction = {
+    			type = infrastructure
+    			level = 1
+    			instant_build = yes
+			}
+		}
+		add_state_core = 448
+		}
+	}
+
+	ITA_core_el_agheila = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			has_completed_focus = ITA_core_africa
+			owns_state = 449
+		}
+
+		complete_effect = {
+		117 = {add_manpower = -10000}
+		157 = {add_manpower = -10000}
+		2 = {add_manpower = -10000}
+		776 = {add_manpower = -10000}
+		775 = {add_manpower = -10000}
+		162 = {add_manpower = -10000}
+		161 = {add_manpower = -10000}
+		773 = {add_manpower = -10000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		449 = {
+			add_manpower = 80000
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 1
+    			instant_build = yes
+			}
+		
+			add_building_construction = {
+    		type = dockyard
+    		level = 1
+    		instant_build = yes
+			}
+
+			add_building_construction = {
+    			type = infrastructure
+    			level = 1
+    			instant_build = yes
+			}
+
+		}
+		add_state_core = 449
+		}
+	}
+
+	ITA_core_benghasi = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			has_completed_focus = ITA_core_africa
+			owns_state = 450
+		}
+
+		complete_effect = {
+		117 = {add_manpower = -20000}
+		157 = {add_manpower = -20000}
+		2 = {add_manpower = -20000}
+		776 = {add_manpower = -20000}
+		775 = {add_manpower = -20000}
+		162 = {add_manpower = -20000}
+		161 = {add_manpower = -20000}
+		773 = {add_manpower = -20000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		450 = {
+			add_manpower = 160000
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 1
+    			instant_build = yes
+			}
+			add_building_construction = {
+    			type = arms_factory
+    			level = 1
+    			instant_build = yes
+			}
+			add_building_construction = {
+    			type = infrastructure
+    			level = 1
+    			instant_build = yes
+			}
+		}
+		add_state_core = 450
+		}
+	}
+
+	ITA_core_derna = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			has_completed_focus = ITA_core_africa
+			owns_state = 451
+		}
+
+		complete_effect = {
+		117 = {add_manpower = -10000}
+		157 = {add_manpower = -10000}
+		2 = {add_manpower = -10000}
+		776 = {add_manpower = -10000}
+		775 = {add_manpower = -10000}
+		162 = {add_manpower = -10000}
+		161 = {add_manpower = -10000}
+		773 = {add_manpower = -10000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		451 = {
+			add_manpower = 80000
+			add_extra_state_shared_building_slots = 2 
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 1
+    			instant_build = yes
+			}
+
+			add_building_construction = {
+    			type = arms_factory
+    			level = 1
+    			instant_build = yes
+			}
+			add_building_construction = {
+    			type = infrastructure
+    			level = 1
+    			instant_build = yes
+			}
+		}
+		add_state_core = 451
+		}
+	}
+
+	ITA_core_tripolitania = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			has_completed_focus = ITA_core_africa_2
+			owns_state = 661
+		}
+
+		complete_effect = {
+		158 = {add_manpower = -20000}
+		159 = {add_manpower = -20000}
+		161 = {add_manpower = -20000}
+		162 = {add_manpower = -20000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		661 = {
+			add_manpower = 80000
+			add_extra_state_shared_building_slots = 1 
+			add_resource = 
+				{	type = oil
+    			 	amount = 15
+    		}
+    		add_resource = 
+				{	type = steel
+    			 	amount = 3
+    		}
+    		add_idea = ITA_libyan_cement
+    		add_building_construction = {
+    			type = infrastructure
+    			level = 1
+    			instant_build = yes
+			}
+    	}	
+		add_state_core = 661
+		}
+	}
+
+	ITA_core_sirte = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			has_completed_focus = ITA_core_africa_2
+			owns_state = 662
+		}
+
+		complete_effect = {
+		162 = {add_manpower = -20000}
+		2 = {add_manpower = -20000}
+		157 = {add_manpower = -20000}
+		773 = {add_manpower = -20000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		662 = {
+			add_manpower = 80000
+			add_extra_state_shared_building_slots = 1
+			add_resource = 
+				{	type = oil
+    			  	amount = 20
+    		}
+    		add_building_construction = {
+    			type = infrastructure
+    			level = 1
+    			instant_build = yes
+			} 
+    	}
+		add_state_core = 662
+		}
+	}
+
+	ITA_core_cyrenaica = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			has_completed_focus = ITA_core_africa_2
+			owns_state = 663
+		}
+
+		complete_effect = {
+		2 = {add_manpower = -15000}
+		157 = {add_manpower = -15000}
+		161 = {add_manpower = -15000}
+		162 = {add_manpower = -15000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		663 = {
+			add_manpower = 60000
+			add_extra_state_shared_building_slots = 1 
+			add_resource = 
+				{	type = oil
+    			  	amount = 12
+    		}
+    		add_building_construction = {
+    			type = infrastructure
+    			level = 1
+    			instant_build = yes
+			}
+    	}
+		add_state_core = 663
+		}
+	}
+
+	ITA_core_marsa_matruh = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			has_completed_focus = ITA_core_africa
+			owns_state = 452
+		}
+
+		complete_effect = {
+		157 = {add_manpower = -30000}
+		2 = {add_manpower = -30000}
+		161 = {add_manpower = -30000}
+		162 = {add_manpower = -30000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		452 = {
+			add_manpower = 120000
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 1
+    			instant_build = yes
+			}
+			add_building_construction = {
+    			type = infrastructure
+    			level = 1
+    			instant_build = yes
+			}
+			add_resource = 
+				{	type = oil
+    			  	amount = 5
+    		}
+    	}
+		add_state_core = 452
+		}
+	}
+
+	ITA_core_gabes = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			has_completed_focus = ITA_core_africa
+			owns_state = 665
+		}
+
+		complete_effect = {
+		159 = {add_manpower = -100000}
+		158 = {add_manpower = -100000}
+		160 = {add_manpower = -100000}
+		162 = {add_manpower = -100000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		665 = {
+			add_manpower = 400000
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 1
+    			instant_build = yes
+			}
+			add_building_construction = {
+    			type = infrastructure
+    			level = 1
+    			instant_build = yes
+			}
+			add_resource = 
+				{	type = oil
+    			  	amount = 5
+    		}
+    	}
+		add_state_core = 665
+		}
+	}
+
+	ITA_core_dalmatia = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			owns_state = 103
+			date > 1938.1.1
+		}
+
+		complete_effect = {
+		159 = {add_manpower = -300000}
+		158 = {add_manpower = -200000}
+		115 = {add_manpower = -200000}
+		160 = {add_manpower = -300000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		103 = {
+			add_manpower = 1000000
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 1
+    			instant_build = yes
+			}
+			add_resource = 
+				{	type = steel
+    			  	amount = 5
+    		}
+    		add_resource = 
+				{	type = aluminium
+    			  	amount = 32
+    		}
+    	}
+		add_state_core = 103
+		}
+	}
+
+	ITA_core_dodecanese = {
+
+		icon = generic_operation
+
+		cost = 20
+
+		fire_only_once = yes
+
+		available = {
+			owns_state = 164
+			has_completed_focus = ITA_economic_boom
+		}
+
+		complete_effect = {
+		159 = {add_manpower = -300000}
+		158 = {add_manpower = -200000}
+		115 = {add_manpower = -200000}
+		160 = {add_manpower = -300000}
+		}
+
+		days_remove = 80
+
+		remove_effect = {
+		164 = {
+			add_manpower = 1000000
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 1
+    			instant_build = yes
+			}
+    	}
+		add_state_core = 164
+		}
+	}
+}
