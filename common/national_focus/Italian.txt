@@ -1087,7 +1087,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_core_africa
-		icon = GFX_goal_generic_trade
+		icon = GFX_focus_italnorth
 		cost = 10.00
 		prerequisite = {
 			focus = ITA_economic_boom
@@ -1100,7 +1100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_core_africa_2
-		icon = GFX_goal_generic_trade
+		icon = GFX_focus_italsouth
 		cost = 10.00
 		prerequisite = {
 			focus = ITA_core_africa

@@ -577,11 +577,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_chi_qing.dds"
 	}
 	SpriteType = {
-		name = "GFX_italnorth"
+		name = "GFX_focus_italnorth"
 		texturefile = "gfx/interface/goals/focus_italnorth.dds"
 	}
 	SpriteType = {
-		name = "GFX_italsouth"
+		name = "GFX_focus_italsouth"
 		texturefile = "gfx/interface/goals/focus_italsouth.dds"
 	}
 }
