@@ -182,3 +182,8 @@ ITA_core_western_desert:0 "Settle and Industrialize The Western Desert"
 ITA_core_dodecanese:0 "Settle and Industrialize The Dodecanese"
 ITA_colonialism_desc:0 "With newfound funding and a recovered economy, Italo Balbo has come to us asking to continue the program of "Italianizing" our holdings in Africa and the Greater Mediterranian"
 ITA_core_dalmatia:0 "Settle and Industrialize Dalmatia"
+
+############################# Leverage
+
+ITA_leverage_up_tt:0 "§GThis will Increase our leverage with the allies!§!"
+ITA_leverage_down_tt:0 "§RThis will decrease our leverage with the allies!§!"
