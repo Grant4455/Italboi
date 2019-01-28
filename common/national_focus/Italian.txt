@@ -969,8 +969,8 @@ focus_tree = {
 		add_stability = 0.1
 		add_political_power = 50
 		custom_effect_tooltip = ITA_decisions_unlocked
-		hidden_effect = { add_idea = ITA_leverage_2
-		}
+        hidden_effect {add_ideas = ITA_leverage_2
+        }
 		}
 
 	}
