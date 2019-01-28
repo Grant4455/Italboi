@@ -560,7 +560,19 @@ ITA_colonialism = {
 ITA_leverage = {
 	
 	ITA_aquire_nice = {
+
+		icon = generic_operation
+
+		cost = 5
+
 		complete_effect = { 
-			ITA_leverage_up = yes }
+
+			ITA = {
+				set_state_owner = 767
+				set_state_controller = 767
+			}
+
+			ITA_leverage_down = yes 
+		}
 	}
 }
