@@ -968,7 +968,9 @@ focus_tree = {
 		completion_reward = {
 		add_stability = 0.1
 		add_political_power = 50
+		custom_effect_tooltip = ITA_decisions_unlocked
 		}
+
 	}
 	focus = {
 		id = ITA_mission_to_FRA
