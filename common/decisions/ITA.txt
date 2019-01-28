@@ -557,3 +557,10 @@ ITA_colonialism = {
 		}
 	}
 }
+ITA_leverage = {
+	
+	ITA_aquire_nice = {
+		ITA_leverage_down = yes
+	}
+
+}
