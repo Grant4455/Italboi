@@ -973,7 +973,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = ITA_mission_to_FRA
+		id = ITA_mountaineers_to_FRA
 		icon = GFX_focus_chi_reach_out_to_france
 		cost = 10.00
 		prerequisite = {
@@ -983,30 +983,9 @@ focus_tree = {
 		y = 4
 		available = {
 		NOT = { has_war_with = FRA }
+		
 		}
 		completion_reward = {
-				FRA = {
-				if = {
-					limit = { 
-					OR = {
-					has_government = democratic 
-					has_government = conservatives
-					has_government = socialist 
-					}  }
-					add_opinion_modifier = { target = ITA modifier = democratic_leanings_good }
-				}
-			}
-		FTU = {
-				if = {
-					limit = { 
-					OR = {
-					has_government = democratic 
-					has_government = conservatives
-					has_government = socialist 
-					}  }
-					add_opinion_modifier = { target = ITA modifier = democratic_leanings_good }
-				}
-			}
 		}
 	}
 	focus = {
@@ -1014,7 +993,7 @@ focus_tree = {
 		icon = GFX_focus_generic_combined_arms
 		cost = 10.00
 		prerequisite = {
-			focus = ITA_mission_to_FRA
+			focus = ITA_mountaineers_to_FRA
 		}
 		x = 18
 		y = 5
@@ -1032,7 +1011,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_diplomatic_missions
 		}
-		x = 22
+		x = 21
 		y = 4
 		available = {
 		NOT = { has_war_with = ENG }
@@ -1049,6 +1028,20 @@ focus_tree = {
 					add_opinion_modifier = { target = ITA modifier = democratic_leanings_good }
 				}
 			}
+		}
+	}
+	focus = {
+		id = ITA_return_dalmatia
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10.00
+		prerequisite = {
+			focus = ITA_diplomatic_missions
+		}
+		x = 23
+		y = 4
+		available = {
+        }
+		completion_reward = {
 		}
 	}
 	focus = {
