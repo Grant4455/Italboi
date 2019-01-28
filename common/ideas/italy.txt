@@ -424,7 +424,7 @@ breakthrough = 0.05
 
 		ITA_leverage_0 = {
 
-			picture = 
+			picture = generic_political_support
 
 			allowed = {
 				original_tag = ITA
@@ -434,7 +434,7 @@ breakthrough = 0.05
 		}
 		ITA_leverage_1 = {
 
-			picture = 
+			picture = generic_political_support
 
 			allowed = {
 				original_tag = ITA
@@ -444,7 +444,7 @@ breakthrough = 0.05
 		}
 		ITA_leverage_2 = {
 
-			picture = 
+			picture = generic_political_support
 
 			allowed = {
 				original_tag = ITA
@@ -454,7 +454,7 @@ breakthrough = 0.05
 		}
 		ITA_leverage_3 = {
 
-			picture = 
+			picture = generic_political_support
 
 			allowed = {
 				original_tag = ITA
@@ -464,7 +464,7 @@ breakthrough = 0.05
 		}
 		ITA_leverage_4 = {
 
-			picture = 
+			picture = generic_political_support
 
 			allowed = {
 				original_tag = ITA
@@ -474,7 +474,7 @@ breakthrough = 0.05
 		}
 		ITA_leverage_5 = {
 
-			picture = 
+			picture = generic_political_support
 
 			allowed = {
 				original_tag = ITA
@@ -484,7 +484,7 @@ breakthrough = 0.05
 		}
 		ITA_leverage_6 = {
 
-			picture = 
+			picture = generic_political_support
 
 			allowed = {
 				original_tag = ITA
@@ -494,7 +494,7 @@ breakthrough = 0.05
 		}
 		ITA_leverage_7 = {
 
-			picture = 
+			picture = generic_political_support
 
 			allowed = {
 				original_tag = ITA
@@ -504,7 +504,7 @@ breakthrough = 0.05
 		}
 		ITA_leverage_8 = {
 
-			picture = 
+			picture = generic_political_support
 
 			allowed = {
 				original_tag = ITA
@@ -514,7 +514,7 @@ breakthrough = 0.05
 		}
 		ITA_leverage_9 = {
 
-			picture = 
+			picture = generic_political_support
 
 			allowed = {
 				original_tag = ITA
@@ -523,7 +523,6 @@ breakthrough = 0.05
 			removal_cost = -1
 		}
 	}
-
 		
 	political_advisor = {
 		amadeo_bordiga = {
