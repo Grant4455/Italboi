@@ -561,6 +561,6 @@ ITA_leverage = {
 	
 	ITA_aquire_nice = {
 		complete_effect = { 
-			ITA_leverage_down = yes }
+			ITA_leverage_up = yes }
 	}
 }
