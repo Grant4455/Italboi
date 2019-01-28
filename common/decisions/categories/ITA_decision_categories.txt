@@ -11,5 +11,16 @@ ITA_colonialism = {
 		original_tag = ITA
 	}
 }
+ITA_leverage = {
+	icon = generic_operation
+
+	picture = GFX_decision_cat_generic_mefo_bills
+
+	allowed = {
+		original_tag = ITA
+	}
+}
+
+
 
 
