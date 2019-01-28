@@ -572,7 +572,94 @@ ITA_leverage = {
 				set_state_controller = 767
 			}
 
+			ITA_leverage_down = yes
+			ITA_leverage_down = yes
+		}
+	}
+
+	ITA_aquire_malta = {
+
+		icon = generic_operation
+
+		cost = 5
+
+		complete_effect = { 
+
+			ITA = {
+				set_state_owner = 116
+				set_state_controller = 116
+			}
+
+			ITA_leverage_down = yes
 			ITA_leverage_down = yes 
+		}
+	}
+
+	ITA_aquire_corsica = {
+
+		icon = generic_operation
+
+		cost = 5
+
+		complete_effect = { 
+
+			ITA = {
+				set_state_owner = 1
+				set_state_controller = 1
+			}
+
+			ITA_leverage_down = yes
+			ITA_leverage_down = yes 
+		}
+	}
+
+	ITA_aquire_gabes = {
+
+		icon = generic_operation
+
+		cost = 5
+
+		complete_effect = { 
+
+			ITA = {
+				set_state_owner = 665
+				set_state_controller = 665
+			}
+
+			ITA_leverage_down = yes
+		}
+	}
+
+	ITA_aquire_west_egypt = {
+
+		icon = generic_operation
+
+		cost = 5
+
+		complete_effect = { 
+
+			ITA = {
+				set_state_owner = 452
+				set_state_controller = 452
+				set_state_owner = 552
+				set_state_controller = 552
+			}
+
+			ITA_leverage_down = yes
+		}
+	}
+
+	ITA_Swiss_Putche = {
+
+		icon = generic_operation
+
+		cost = 5
+
+		complete_effect = {
+
+		SWI = {}
+
+		ITA_leverage_down = yes
 		}
 	}
 }
