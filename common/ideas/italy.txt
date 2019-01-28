@@ -522,7 +522,6 @@ breakthrough = 0.05
 
 			removal_cost = -1
 		}
-
 	}
 
 		
