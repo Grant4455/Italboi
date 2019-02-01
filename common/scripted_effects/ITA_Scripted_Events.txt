@@ -24,28 +24,28 @@ ITA_leverage_up = {
 			add_idea = ITA_leverage_9
 		}
 	}
-	elseif = {
+	if = {
 		limit = { has_idea = ITA_leverage_7 }
 		swap_ideas = {
 			remove_idea = ITA_leverage_7
 			add_idea = ITA_leverage_8
 		}
 	}
-	elseif = {
+	if = {
 		limit = { has_idea = ITA_leverage_6 }
 		swap_ideas = {
 			remove_idea = ITA_leverage_6
 			add_idea = ITA_leverage_7
 		}
 	}
-	elseif = {
+	if = {
 		limit = { has_idea = ITA_leverage_5 }
 		swap_ideas = {
 			remove_idea = ITA_leverage_5
 			add_idea = ITA_leverage_6
 		}
 	}
-	elseif = {
+	if = {
 		limit = { has_idea = ITA_leverage_4 }
 		swap_ideas = {
 			remove_idea = ITA_leverage_4
@@ -79,6 +79,10 @@ ITA_leverage_up = {
 			remove_idea = ITA_leveraget_0
 			add_idea = ITA_leverage_1
 		}		
+	}
+	else_if = {
+		limit = { NOT = { has_idea = ITA_leverage_1 } }
+		add_ideas = ITA_leverage_1
 	}
 }
 
