@@ -985,9 +985,10 @@ focus_tree = {
 		y = 4
 		available = {
 		NOT = { has_war_with = FRA }
-		
+		FRA = { has_completed_focus = FR_demo 	}
 		}
 		completion_reward = {
+		FRA = { country_event = FRA.252 }
 		}
 	}
 	focus = {
@@ -1034,7 +1035,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_return_dalmatia
-		icon = GFX_focus_chi_british_cooperation
+		icon = GFX_focus_ser_yugoslavia
 		cost = 10.00
 		prerequisite = {
 			focus = ITA_diplomatic_missions
@@ -1042,8 +1043,16 @@ focus_tree = {
 		x = 23
 		y = 4
 		available = {
+		
         }
 		completion_reward = {
+			            SER = {
+					transfer_state = 103
+				}	
+				hidden_effect = {
+				ITA_leverage_up = yes
+				ITA_leverage_up = yes
+				}
 		}
 	}
 	focus = {

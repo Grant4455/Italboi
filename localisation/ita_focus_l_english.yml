@@ -134,6 +134,10 @@ ITA_war_SWI_desc:0 "Switzerland is a pimple on Europe. Let us squeeze it out of 
 ITA_roman_empire:0 "The New Roman Empire"
 ITA_roman_empire_desc:0 "Cetero Censeo Europa Esse Delendam"
 ITA_core_africa:0 "Continue Italinization of North Africa"
+ITA_mountaineers_to_FRA:0 "Send Alpini to France"
+ITA_mountaineers_to_FRA_desc:0 "Surely if the French accept us sending over some of our elite mountaineers, we can win ourselves further leverage over the Allies!"
+ITA_return_dalmatia:0 "Return Dalmatia to the Slavs"
+ITA_return_dalmatia_desc:0 "Returning the occupied territory of Dalmatia to the slavs will earn us a considerable chunk of brownie points with the allies"
 ITA_core_africa_desc:0 "Now that our economy has been fixed, we may continue our plans of settling Italians and building up industry in North Africa, to "Italianize" them under the plans of Italo Balbo."
 ITA_core_africa_2:0 "Italianize Inner Libya"
 ITA_core_africa_2_desc:0 "With recent developments in both mining and farming equipment, we can now both bring the people of the Libyan Desert into the fold, and extract the untouched bounty of their homeland."
@@ -182,7 +186,6 @@ ITA_core_western_desert:0 "Settle and Industrialize The Western Desert"
 ITA_core_dodecanese:0 "Settle and Industrialize The Dodecanese"
 ITA_colonialism_desc:0 "With newfound funding and a recovered economy, Italo Balbo has come to us asking to continue the program of "Italianizing" our holdings in Africa and the Greater Mediterranian"
 ITA_core_dalmatia:0 "Settle and Industrialize Dalmatia"
-
 ############################# Leverage
 
 ITA_leverage_up_tt:0 "§GThis will Increase our leverage with the allies!§!"
