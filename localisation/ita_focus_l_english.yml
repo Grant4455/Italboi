@@ -183,10 +183,26 @@ ITA_core_dodecanese:0 "Settle and Industrialize The Dodecanese"
 ITA_colonialism_desc:0 "With newfound funding and a recovered economy, Italo Balbo has come to us asking to continue the program of "Italianizing" our holdings in Africa and the Greater Mediterranian"
 ITA_core_dalmatia:0 "Settle and Industrialize Dalmatia"
 
+############################ Spending Leverage
+
+ITA_leverage:0 "Influence within the Allies"
+ITA_aquire_nice:0 "Aquire the city of Nice"
+ITA_aquire_nice_desc:0 "By using our contributions, past and present, to the allies, we can force a transfer of territory in our favour. This will cost 2 points of leverage."
+ITA_aquire_malta:0 "Aquire the islands of Malta"
+ITA_aquire_malta_desc:0 "By using our contributions, past and present, to the allies, we can force a transfer of territory in our favour. This will cost 2 points of leverage."
+ITA_aquire_corsica:0 "Aquire the island of Corsica"
+ITA_aquire_corsica_desc:0 "By using our contributions, past and present, to the allies, we can force a transfer of territory in our favour. This will cost 2 points of leverage."
+ITA_aquire_gabes:0 "Aquire French holdings in North Africa"
+ITA_aquire_gabes_desc:0 "By using our contributions, past and present, to the allies, we can force a transfer of territory in our favour. This will cost 1 point of leverage."
+ITA_aquire_west_egypt:0 "Aquire Western Egypt"
+ITA_aquire_west_egypt_desc:0 "By using our contributions, past and present, to the allies, we can force a transfer of territory in our favour. This will cost 1 points of leverage."
+ITA_Swiss_Putche:0 "Prepare a move for Itallian-Switzerland"
+ITA_Swiss_Putche_desc:0 "If we are to truly unify the nation behind us, with all itallian-speaking people, we must overcome the Swiss. By using influence within the allies, we can force them to revoke their protections, and launch a war before the Swiss know what's happening."
+
 ############################# Leverage
 
-ITA_leverage_up_tt:0 "§GThis will Increase our leverage with the allies!§!"
-ITA_leverage_down_tt:0 "§RThis will decrease our leverage with the allies!§!"
+ITA_leverage_up_tt:0 "§GThis will Increase Itallian leverage within the allies!§!"
+ITA_leverage_down_tt:0 "§RThis will decrease Itallian leverage within the allies!§!"
 ITA_decisions_unlocked:0 "§GThis will allow us to use our leverage over the allies!§!"
 ITA_leverage_0:0 "We have no leverage over the allies!"
 ITA_leverage_1:0 "§RWe have 1 point of leverage over the allies!§!"
@@ -198,3 +214,28 @@ ITA_leverage_6:0 "§YWe have 6 points of leverage over the allies!§!"
 ITA_leverage_7:0 "§GWe have 7 points of leverage over the allies!§!"
 ITA_leverage_8:0 "§GWe have 8 points of leverage over the allies!§!"
 ITA_leverage_9:0 "§BWe have 9 points of leverage over the allies!§!"
+
+############################# Petty Events
+
+italy.2010.t:0 "Transfer of Nice"
+italy.2010.d:0 "Using their considerable bargaining power, the Itallians have forced a peaceful transfer of the district of Nice on the grounds of a large, Itallian minority there. To prevent further seizures, we must limit their leverage."
+italy.2010.a:0 "Their contributions were too great to refuse."
+italy.2011.t:0 "Transfer of Malta"
+italy.2011.d:0 "Using their considerable bargaining power, the Itallians have forced a peaceful transfer of the islands of Malta on the grounds of a large, Itallian minority there. To prevent further seizures, we must limit their leverage."
+italy.2011.a:0 "Their contributions were too great to refuse."
+italy.2012.t:0 "Transfer of Corsica"
+italy.2012.d:0 "Using their considerable bargaining power, the Itallians have forced a peaceful transfer of the island of Corsica, citing a large, Itallian minority there. To prevent further seizures, we must limit their leverage."
+italy.2012.a:0 "Their contributions were too great to refuse."
+italy.2013.t:0 "Transfer of Gabes"
+italy.2013.d:0 "Using their considerable bargaining power, the Itallians have forced a peaceful transfer of our colony of Gabes, hoping to establish signifigant settlements there.
+italy.2013.a:0 "A spit of useless sand."
+italy.2014.t:0 "Transfer of Western Egypt"
+italy.2014.d:0 "Using their considerable bargaining power, the Itallians have forced a peaceful transfer of egypt west of El-Alamein, hoping to establish signifigant settlements there.
+italy.2014.a:0 "A spit of useless sand."
+italy.2015.t:0 "Itallians move on Switzerland"
+italy.2015.d:0 "Until recently Swiss neutrality has been a universally recognised factor, but, pressing their claims to the Itallian-speaking south, the Itallian government has forced us to rescind that protection."
+italy.2015.a:0 "Most regrettable."
+italy.2016.t:0 "Itallians move on Switzerland"
+italy.2016.d:0 "Our neutrality has been long recognised by the western powers, but unfortunately, that no longer seems to be the case. Itallian troops have massed on the border, seemingly ready to cross and annex the southern portion of the country."
+italy.2016.a:0 "We must give in, we cannot survive such a war."
+italy.2016.b:0 "We shall fire twice, and go home."

@@ -565,14 +565,27 @@ ITA_leverage = {
 
 		cost = 5
 
+		available = {
+			OR = {
+			has_idea = ITA_leverage_2
+			has_idea = ITA_leverage_3
+			has_idea = ITA_leverage_4
+			has_idea = ITA_leverage_5
+			has_idea = ITA_leverage_6
+			has_idea = ITA_leverage_7
+			has_idea = ITA_leverage_8
+			has_idea = ITA_leverage_9
+			}
+		}
+
 		complete_effect = { 
 
+			FRA = {country_event = italy.2010}
 			ITA = {
 				set_state_owner = 767
 				set_state_controller = 767
 			}
 
-			ITA_leverage_down = yes
 			ITA_leverage_down = yes
 		}
 	}
@@ -583,15 +596,28 @@ ITA_leverage = {
 
 		cost = 5
 
+		available = {
+			OR = {
+			has_idea = ITA_leverage_2
+			has_idea = ITA_leverage_3
+			has_idea = ITA_leverage_4
+			has_idea = ITA_leverage_5
+			has_idea = ITA_leverage_6
+			has_idea = ITA_leverage_7
+			has_idea = ITA_leverage_8
+			has_idea = ITA_leverage_9
+			}
+		}
+
 		complete_effect = { 
 
+			ENG = {country_event = italy.2011}
 			ITA = {
 				set_state_owner = 116
 				set_state_controller = 116
 			}
 
 			ITA_leverage_down = yes
-			ITA_leverage_down = yes 
 		}
 	}
 
@@ -601,15 +627,28 @@ ITA_leverage = {
 
 		cost = 5
 
+		available = {
+			OR = {
+			has_idea = ITA_leverage_2
+			has_idea = ITA_leverage_3
+			has_idea = ITA_leverage_4
+			has_idea = ITA_leverage_5
+			has_idea = ITA_leverage_6
+			has_idea = ITA_leverage_7
+			has_idea = ITA_leverage_8
+			has_idea = ITA_leverage_9
+			}
+		}
+
 		complete_effect = { 
 
+			FRA = {country_event = italy.2012}
 			ITA = {
 				set_state_owner = 1
 				set_state_controller = 1
 			}
 
 			ITA_leverage_down = yes
-			ITA_leverage_down = yes 
 		}
 	}
 
@@ -619,8 +658,23 @@ ITA_leverage = {
 
 		cost = 5
 
+		available = {
+			OR = {
+			has_idea = ITA_leverage_1
+			has_idea = ITA_leverage_2
+			has_idea = ITA_leverage_3
+			has_idea = ITA_leverage_4
+			has_idea = ITA_leverage_5
+			has_idea = ITA_leverage_6
+			has_idea = ITA_leverage_7
+			has_idea = ITA_leverage_8
+			has_idea = ITA_leverage_9
+			}
+		}
+
 		complete_effect = { 
 
+			FRA = {country_event = italy.2013}
 			ITA = {
 				set_state_owner = 665
 				set_state_controller = 665
@@ -636,8 +690,23 @@ ITA_leverage = {
 
 		cost = 5
 
+		available = {
+			OR = {
+			has_idea = ITA_leverage_1
+			has_idea = ITA_leverage_2
+			has_idea = ITA_leverage_3
+			has_idea = ITA_leverage_4
+			has_idea = ITA_leverage_5
+			has_idea = ITA_leverage_6
+			has_idea = ITA_leverage_7
+			has_idea = ITA_leverage_8
+			has_idea = ITA_leverage_9
+			}
+		}
+
 		complete_effect = { 
 
+			ENG = {country_event = italy.2014}
 			ITA = {
 				set_state_owner = 452
 				set_state_controller = 452
@@ -655,9 +724,25 @@ ITA_leverage = {
 
 		cost = 5
 
+		available = {
+			OR = {
+			has_idea = ITA_leverage_1
+			has_idea = ITA_leverage_2
+			has_idea = ITA_leverage_3
+			has_idea = ITA_leverage_4
+			has_idea = ITA_leverage_5
+			has_idea = ITA_leverage_6
+			has_idea = ITA_leverage_7
+			has_idea = ITA_leverage_8
+			has_idea = ITA_leverage_9
+			}
+		}
+
 		complete_effect = {
 
-		SWI = {}
+		ENG = {country_event = italy.2015}
+		FRA = {country_event = italy.2015}
+		SWI = {country_event = italy.2016}
 
 		ITA_leverage_down = yes
 		}
