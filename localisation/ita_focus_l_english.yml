@@ -239,3 +239,11 @@ italy.2016.t:0 "Itallians move on Switzerland"
 italy.2016.d:0 "Our neutrality has been long recognised by the western powers, but unfortunately, that no longer seems to be the case. Itallian troops have massed on the border, seemingly ready to cross and annex the southern portion of the country."
 italy.2016.a:0 "We must give in, we cannot survive such a war."
 italy.2016.b:0 "We shall fire twice, and go home."
+
+
+############################# Petty Events
+
+ITA_mountaineers_to_FRA:0 "Send Alpini to France"
+ITA_mountaineers_to_FRA_desc:0 "Surely if the French accept us sending over some of our elite mountaineers, we can win ourselves further leverage over the Allies!"
+ITA_return_dalmatia:0 "Return Dalmatia to the Slavs"
+ITA_return_dalmatia_desc:0 "Returning the occupied territory of Dalmatia to the slavs will earn us a considerable chunk of brownie points with the allies"
