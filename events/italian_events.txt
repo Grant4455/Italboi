@@ -781,3 +781,38 @@ news_event = {
 			}
 		}
 	}
+
+	country_event = {
+	id = ITA.252
+	title = ITA.252.t
+	desc = ITA.252.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+
+		option = { 
+		name = ITA.252.a
+
+			ai_chance = { factor = 100 }	
+
+			ITA_leverage_up = yes
+			FRA = {
+				load_oob = {
+					ITA_Mountaineers_2_FRA 
+				}
+			}
+
+			ITA = {
+				add_manpower = -13400
+			}
+		}
+
+		option = { 
+		name = ITA.252.b
+
+			ai_chance = { factor = 0 }
+		}
+	}
+
+	
+		
+	
