@@ -91,6 +91,13 @@
  italy.10007.d:0 "A new Italian Republic was formed.\nIt was annouced yesterday that the King of Italy abdicated in favour of the Republican state of Italy. Only time will tell whether this is beneficial for the Italian state."
  italy.10007.a:0 "Interesting"
  italy.10007.b:0 "Interesting"
+
+ ####### Leverage & Related Events #######
+
+ italy.252.t:0 "Italy offers to raise Alpini"
+ italy.252.d:0 "The Italian embassy has come to us with an interesting offer; They will raise, equip, and train two divisions of elite Alpini for our army. This could cover some gaps in our defense spending, but accepting it could make use seem dependant."
+ italy.252.a:0 "Absolutely, it will help in our defense."
+ italy.252.b:0 "We can't allow ourselves to become indebted."
  italy.3001.t:0 "The allies said no!"
  italy.3001.d:0 "In regards to our recent proposal, the allies have given us a very politely written "No"."
  italy.3001.a:0 "Oh, alright."
@@ -101,11 +108,7 @@
  italy.363.d:0 "The Italians have posited to us that, should we give further diplomatic recognition to their sacrifice during the war (Which would give them further power to leverage over us), they would give us half of their naval production."
  italy.363.a:0 "More ships? Send our confirmation immediatly!"
  italy.363.b:0 "We cannot allow the italians more political leverage."
-
-
- ####### Leverage & Related Events #######
-
- italy.252.t:0 "Italy offers to raise Alpini"
- italy.252.d:0 "The Itallian embassy has come to us with an interesting offer; They will raise, equip, and train two divisions of elite Alpini for our army. This could cover some gaps in our defense spending, but accepting it could make use seem dependant."
- italy.252.a:0 "Absolutely, it will help in our defense."
- italy.252.b:0 "We can't allow ourselves to become indebted." 
+ italy.353.t:0 "Italians offer to finish the Cape to Cairo Rail Link"
+ italy.353.d:0 "The Cape to Cairo, a proposal made to simplify imperial administration has, since it's beginning, seen endless delays. The programme was finally made possible with the end of the great war, seeing the transfer of German territories and thus allowing a contigous, red line down the continent. Unfortunately, actually filling the railway gap has proved an issue. Gauge, rainforest, desert, all throw up huge barriers to the project. Until now, anyways. The Italian government, flush with funding in it's recent economic boom, has offered to foot the bill of a completion of a railway from Cape Town to Cairo, linking the gaps, and standardising the entire line's rolling stock and gauge. Of course, this comes with distasteful, political strings attached. It would allow us to integrate Egypt, however."
+ italy.353.a:0 "We would be mad to refuse!"
+ italy.353.b:0 "Blatent bribery."
