@@ -839,9 +839,10 @@ news_event = {
 
 	option = { 
 	name = italy.3002.a
+		}
 	}
-	}
-			country_event = {
+
+	country_event = {
 	id = italy.363
 	title = italy.363.t
 	desc = italy.363.d
@@ -851,15 +852,18 @@ news_event = {
 	option = { 
 	name = italy.363.a
 	    hidden_effect = {
-		
-	       ITA = { ITA_leverage_up = yes
-		   ITA_leverage_up = yes }
+	    	ITA = { 
+	       		ITA_leverage_up = yes
+		  		ITA_leverage_up = yes 
+		  	}
 		}   
 		   ENG = { add_ideas = ENG_italian_dockyards }
 		   ITA = { add_ideas = ITA_lost_dockyards }
 	}
+
 	option = { 
 	name = italy.363.b
+		}
 	}
 
 	country_event = {
@@ -956,4 +960,5 @@ news_event = {
 	name = italy.353.b
 
 		ITA = {country_event = italy.3001}
+	}
 	}
