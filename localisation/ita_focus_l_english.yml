@@ -200,11 +200,11 @@ ITA_aquire_malta:0 "Aquire the islands of Malta"
 ITA_aquire_malta_desc:0 "By using our contributions, past and present, to the allies, we can force a transfer of territory in our favour. This will cost 2 points of leverage."
 ITA_aquire_corsica:0 "Aquire the island of Corsica"
 ITA_aquire_corsica_desc:0 "By using our contributions, past and present, to the allies, we can force a transfer of territory in our favour. This will cost 2 points of leverage."
-ITA_aquire_gabes:0 "Aquire French holdings in North Africa"
+ITA_aquire_gabes:0 "Aquire the colony of Gabes"
 ITA_aquire_gabes_desc:0 "By using our contributions, past and present, to the allies, we can force a transfer of territory in our favour. This will cost 1 point of leverage."
 ITA_aquire_west_egypt:0 "Aquire Western Egypt"
 ITA_aquire_west_egypt_desc:0 "By using our contributions, past and present, to the allies, we can force a transfer of territory in our favour. This will cost 1 points of leverage."
-ITA_Swiss_Putche:0 "Prepare a move for Itallian-Switzerland"
+ITA_Swiss_Putche:0 "Prepare a move for Italian-Switzerland"
 ITA_Swiss_Putche_desc:0 "If we are to truly unify the nation behind us, with all itallian-speaking people, we must overcome the Swiss. By using influence within the allies, we can force them to revoke their protections, and launch a war before the Swiss know what's happening."
 
 ############################# Leverage

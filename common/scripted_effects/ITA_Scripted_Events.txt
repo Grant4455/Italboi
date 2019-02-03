@@ -75,7 +75,7 @@ ITA_leverage_up = {
 	if = {
 		limit = { has_idea = ITA_leverage_0 }
 		swap_ideas = {
-			remove_idea = ITA_leveraget_0
+			remove_idea = ITA_leverage_0
 			add_idea = ITA_leverage_1
 		}		
 	}
