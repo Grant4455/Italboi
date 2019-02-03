@@ -785,7 +785,7 @@ news_event = {
 	country_event = {
 	id = italy.252
 	title = italy.252.t
-	desc = itally.252.d
+	desc = italy.252.d
 	picture = GFX_report_event_generic_read_write
 	is_triggered_only = yes
 
@@ -797,9 +797,7 @@ news_event = {
 			
 				hidden_effect = {
 					FRA = {
-						load_oob = {
-							ITA_Mountaineers_2_FRA 
-						}
+						load_oob = ITA_Mountaineers_to_FRA
 					}	
 				}
 
@@ -961,4 +959,37 @@ news_event = {
 
 		ITA = {country_event = italy.3001}
 	}
+	}
+
+
+	country_event = {
+	id = italy.365
+	title = italy.365.t
+	desc = italy.365.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+
+	option = { 
+	name = italy.365.a
+
+		ENG = {
+			set_state_owner = 559
+			set_state_controller = 559
+			set_state_owner = 550
+			set_state_controller = 550
+		}
+
+	    hidden_effect = {
+	    	ITA = { 
+	       		ITA_leverage_up = yes
+		  	}
+		}   
+	}
+
+	option = { 
+	name = italy.365.b
+
+	ITA = {country_event = italy.3001}
+
+		}
 	}
