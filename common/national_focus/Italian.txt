@@ -1027,6 +1027,24 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = ITA_cede_horn_of_africa
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10.00
+		prerequisite = {
+			focus = ITA_finish_railway
+		}
+		x = 21
+		y = 5
+		available = {
+		NOT = { has_war_with = ENG }
+		ENG = {has_completed_focus = UK_power_PM }
+		}
+		completion_reward = {
+			ENG = { country_event = italy.365 }
+			custom_effect_tooltip = ITA_one_point_gained
+		}
+	}
+	focus = {
 		id = ITA_return_dalmatia
 		icon = GFX_focus_ser_yugoslavia
 		cost = 10.00
@@ -1054,10 +1072,10 @@ focus_tree = {
 		icon = GFX_focus_generic_navy_battleship2
 		cost = 10.00
 		prerequisite = {
-			focus = ITA_finish_railway
+			focus = ITA_cede_horn_of_africa
 		}
-		x = 21
-		y = 5
+		x = 22
+		y = 6
 		available = {
 		is_in_faction_with = ENG
 		}
