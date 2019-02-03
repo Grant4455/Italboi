@@ -988,7 +988,8 @@ focus_tree = {
 		FRA = { has_completed_focus = FR_demo 	}
 		}
 		completion_reward = {
-		FRA = { country_event = FRA.252 }
+		FRA = { country_event = ITA.252 }
+		custom_effect_tooltip = ITA_one_point_gained
 		}
 	}
 	focus = {
@@ -1008,7 +1009,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ITA_mission_to_UK
+		id = ITA_finish_railway
 		icon = GFX_focus_chi_british_cooperation
 		cost = 10.00
 		prerequisite = {
@@ -1020,17 +1021,8 @@ focus_tree = {
 		NOT = { has_war_with = ENG }
 		}
 		completion_reward = {
-				ENG = {
-				if = {
-					limit = { 
-					OR = {
-					has_government = democratic 
-					has_government = conservatives
-					has_government = socialist 
-					}  }
-					add_opinion_modifier = { target = ITA modifier = democratic_leanings_good }
-				}
-			}
+			ENG = { country_event = ITA.353 }
+			custom_effect_tooltip = ITA_one_point_gained
 		}
 	}
 	focus = {
@@ -1053,14 +1045,15 @@ focus_tree = {
 				ITA_leverage_up = yes
 				ITA_leverage_up = yes
 				}
+				custom_effect_tooltip = ITA_two_points_gained
 		}
 	}
 	focus = {
-		id = ITA_british_naval_treaty
+		id = ITA_slave_dockyards
 		icon = GFX_focus_generic_navy_battleship2
 		cost = 10.00
 		prerequisite = {
-			focus = ITA_mission_to_UK
+			focus = ITA_finish_railway
 		}
 		x = 22
 		y = 5
@@ -1068,8 +1061,13 @@ focus_tree = {
 		is_in_faction_with = ENG
 		}
 		completion_reward = {
-		ENG = { country_event = { id = italy.10003 days = 1 } }
+		custom_effect_tooltip = ITA_two_points_gained 
+		
+		ENG = { country_event = { id = ITA.363 days = 1 } }
+		
+		custom_effect_tooltip = ITA_dockyards_warning
 		}
+
 	}
 	focus = {
 		id = ITA_leave_allies
@@ -1078,7 +1076,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_state_of_italy
 		}
-		mutually_exclusive = {
+		mutually_exclusive =	 {
 			focus = ITA_remain_with_allies
 		}
 		x = 30
@@ -1889,18 +1887,17 @@ focus_tree = {
 		icon = GFX_focus_generic_license_production
 		cost = 10.00
 		prerequisite = {
-			focus = ITA_mission_to_FRA
-			focus = ITA_mission_to_UK
+			focus = ITA_diplomatic_missions
 		}
 		x = 20
-		y = 5
+		y = 6
 		available = {
 		is_in_faction_with = ENG 
 		is_in_faction_with = FRA
 		}
 		completion_reward = {
 		ITA = {
-		navy_experience = 25 
+		army_experience = 25 
 		air_experience = 25
 		add_tech_bonus = {
 				name = land_doc_bonus
@@ -1916,7 +1913,7 @@ focus_tree = {
 			}
 		}
 		ENG = {
-		navy_experience = 25 
+		army_experience = 25 
 		air_experience = 25
 		add_tech_bonus = {
 				name = land_doc_bonus
@@ -1932,7 +1929,7 @@ focus_tree = {
 			}
 		}
 		FRA = {
-		navy_experience = 25 
+		army_experience = 25 
 		air_experience = 25
 		add_tech_bonus = {
 				name = land_doc_bonus
