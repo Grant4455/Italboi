@@ -145,6 +145,8 @@ ITA_mountaineers_to_FRA:0 "Send Alpini to France"
 ITA_mountaineers_to_FRA_desc:0 "Surely if the French accept us sending over some of our elite mountaineers, we can win ourselves further leverage over the Allies!"
 ITA_return_dalmatia:0 "Return Dalmatia to the Slavs"
 ITA_return_dalmatia_desc:0 "Returning the occupied territory of Dalmatia to the slavs will earn us a considerable chunk of brownie points with the allies"
+ITA_cede_horn_of_africa:0 "Cede the horn of africa to Britain"
+ITA_cede_horn_of_africa_desc:0 "For further diplomatic leverage over the british, we could cede our holdings in Eritria and Somalia, useless colonies that would assist an invasion we're not going to conduct."
 ##################################
 ITA_invites_portugal:0 "Portugal will receive invitation to our faction"
 ITA_invites_france:0 "France will receive invitation to our faction"
