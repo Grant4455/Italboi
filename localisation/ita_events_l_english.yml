@@ -91,6 +91,13 @@
  italy.10007.d:0 "A new Italian Republic was formed.\nIt was annouced yesterday that the King of Italy abdicated in favour of the Republican state of Italy. Only time will tell whether this is beneficial for the Italian state."
  italy.10007.a:0 "Interesting"
  italy.10007.b:0 "Interesting"
+ italy.3001.t:0 "The allies said no!"
+ italy.3001.d:0 "In regards to our recent proposal, the allies have given us a very politely written "No"."
+ italy.3001.a:0 "Oh, alright."
+ italy.3002.t:0 "The allies said yes!"
+ italy.3002.d:0 "The allies have agreed to the proposal we recently put forward, thus increasing our leverage with them! "
+ italy.3002.a:0 "Wonderful news!"
+   
 
  ####### Leverage & Related Events #######
 

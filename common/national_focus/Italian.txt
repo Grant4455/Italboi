@@ -988,7 +988,7 @@ focus_tree = {
 		FRA = { has_completed_focus = FR_demo 	}
 		}
 		completion_reward = {
-		FRA = { country_event = ITA.252 }
+		FRA = { country_event = italy.252 }
 		custom_effect_tooltip = ITA_one_point_gained
 		}
 	}
@@ -1019,9 +1019,10 @@ focus_tree = {
 		y = 4
 		available = {
 		NOT = { has_war_with = ENG }
+		ENG = {has_completed_focus = UK_power_PM }
 		}
 		completion_reward = {
-			ENG = { country_event = ITA.353 }
+			ENG = { country_event = italy.353 }
 			custom_effect_tooltip = ITA_one_point_gained
 		}
 	}
@@ -1062,7 +1063,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		custom_effect_tooltip = ITA_two_points_gained 		
-		ENG = { country_event = { id = ITA.363 days = 1 } }	
+		ENG = { country_event = { id = italy.363 days = 1 } }	
 		custom_effect_tooltip = ITA_dockyards_warning
 		}
 

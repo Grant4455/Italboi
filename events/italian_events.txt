@@ -815,6 +815,47 @@ news_event = {
 		}
 	}
 
+	country_event = {
+	id = italy.3001
+	title = italy.3001.t
+	desc = italy.3001.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
 
+	option = { 
+	name = italy.3001.a
+	}
+	}
+		country_event = {
+	id = italy.3002
+	title = italy.3002.t
+	desc = italy.3002.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+
+	option = { 
+	name = italy.3002.a
+	}
+	}
+			country_event = {
+	id = italy.363
+	title = italy.363.t
+	desc = italy.363.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+
+	option = { 
+	name = italy.363.a
+	   
+	       ITA_leverage_up = yes
+		   ITA_leverage_up = yes
+		   
+		   ENG = ( add_idea = italian_dockyards )
+		   ITA = ( add_idea = lost_dockyards )
+	}
+	option = { 
+	name = italy.363.b
+	}
+	}
 		
 	
