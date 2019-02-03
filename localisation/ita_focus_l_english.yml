@@ -138,13 +138,9 @@ ITA_core_africa_desc:0 "Now that our economy has been fixed, we may continue our
 ITA_core_africa_2:0 "Italianize Inner Libya"
 ITA_core_africa_2_desc:0 "With recent developments in both mining and farming equipment, we can now both bring the people of the Libyan Desert into the fold, and extract the untouched bounty of their homeland."
 ITA_finish_railway:0 "Offer to Finish the Cape to Cairo Railway"
-ITA_finish_railway_desc:0 "The Cape the Cairo railway is an unfished mega-project thought up by Governer Cecil Rhodes, this project remains unfinished, however we can offer to step in and finish it for them. Surely this would benefit the British, and earn us some diplomatic leeway"
+ITA_finish_railway_desc:0 "The Cape the Cairo railway is an unfished mega-project thought up by Governer Cecil Rhodes, this project remains unfinished, however we can offer to step in and finish it for them, surely this would benefit the British, and earn us some diplomatic leeway"
 ITA_slave_dockyards:0 "Slave Naval Production to Britain"
-ITA_slave_dockyards_desc:0 "It's no secret that the British have a genetic obsession with having a bigger fleet than everybody else, though usually regarded as compensation for certain inadequacies, we can capitalize upon this by offering to transfer half of our naval production to Britain."
-ITA_mountaineers_to_FRA:0 "Send Alpini to France"
-ITA_mountaineers_to_FRA_desc:0 "Surely if the French accept us sending over some of our elite mountaineers, we can win ourselves further leverage over the Allies!"
-ITA_return_dalmatia:0 "Return Dalmatia to the Slavs"
-ITA_return_dalmatia_desc:0 "Returning the occupied territory of Dalmatia to the slavs will earn us a considerable chunk of brownie points with the allies"
+ITA_slave_dockyards_desc:0 "It's no secret that the British have a genetic obsession with having a bigger fleet than everybody else, though usually regarded as compensation for certain inadequacies, we can capitalize upon this by offering to slave half of our naval production to Britain."
 ##################################
 ITA_invites_portugal:0 "Portugal will receive invitation to our faction"
 ITA_invites_france:0 "France will receive invitation to our faction"
@@ -222,9 +218,9 @@ ITA_leverage_6:0 "§YWe have 6 points of leverage over the allies!§!"
 ITA_leverage_7:0 "§GWe have 7 points of leverage over the allies!§!"
 ITA_leverage_8:0 "§GWe have 8 points of leverage over the allies!§!"
 ITA_leverage_9:0 "§BWe have 9 points of leverage over the allies!§!"
-ITA_one_point_gained:0 "§GThis will earn us a point of leverage!§!"
+ITA_one_point_gained:0 "§GThis will earn us a point of leverage!§"
 ITA_two_points_gained:0 "§GThis will earn us two points of leverage!             §!"
-ITA_dockyards_warning:0 "§R     This will significantly and permanently hamper our shipbuilding capabilities!     §!"
+ITA_dockyards_warning:0 "§R     This will significantly and permanently hamper our shipbuilding capabilities!     §"
 
 ############################# Petty Events
 
@@ -250,3 +246,11 @@ italy.2016.t:0 "Itallians move on Switzerland"
 italy.2016.d:0 "Our neutrality has been long recognised by the western powers, but unfortunately, that no longer seems to be the case. Itallian troops have massed on the border, seemingly ready to cross and annex the southern portion of the country."
 italy.2016.a:0 "We must give in, we cannot survive such a war."
 italy.2016.b:0 "We shall fire twice, and go home."
+
+
+############################# Petty Events
+
+ITA_mountaineers_to_FRA:0 "Send Alpini to France"
+ITA_mountaineers_to_FRA_desc:0 "Surely if the French accept us sending over some of our elite mountaineers, we can win ourselves further leverage over the Allies!"
+ITA_return_dalmatia:0 "Return Dalmatia to the Slavs"
+ITA_return_dalmatia_desc:0 "Returning the occupied territory of Dalmatia to the slavs will earn us a considerable chunk of brownie points with the allies"

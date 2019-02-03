@@ -999,7 +999,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_mountaineers_to_FRA
 		}
-		x = 19
+		x = 18
 		y = 5
 		available = {
 		is_in_faction_with = FRA
@@ -1055,14 +1055,16 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_finish_railway
 		}
-		x = 21
+		x = 22
 		y = 5
 		available = {
 		is_in_faction_with = ENG
 		}
 		completion_reward = {
-		custom_effect_tooltip = ITA_two_points_gained 		
-		ENG = { country_event = { id = ITA.363 days = 1 } }	
+		custom_effect_tooltip = ITA_two_points_gained 
+		
+		ENG = { country_event = { id = ITA.363 days = 1 } }
+		
 		custom_effect_tooltip = ITA_dockyards_warning
 		}
 
