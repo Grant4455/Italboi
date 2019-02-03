@@ -244,6 +244,38 @@ ideas = { #ita_demo
 			}
 
 		}
+		ITA_lost_dockyards = {
+
+			picture = generic_the_london_naval_treaty
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			removal_cost = -1
+			
+			modifier = {	
+			
+	             industrial_capacity_dockyard = -0.5
+			}
+		}
+		ITA_railway = {
+
+			picture = generic_local_self_management
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			removal_cost = -1
+			
+			modifier = {	
+			
+	             production_speed_buildings_factor = -0.1
+			}
+
+		}
+		
 		ITA_army_shortages_idea = {
 
 			#picture = chi_hyper_inflation

@@ -852,12 +852,12 @@ news_event = {
 	option = { 
 	name = italy.363.a
 	   
-	       
-		   
-		   ENG = { add_idea = italian_dockyards }
-		   ITA = { add_idea = lost_dockyards 
-		   			ITA_leverage_up = yes
-		   			ITA_leverage_up = yes}
+	    hidden_effect = {
+	       ITA_leverage_up = yes
+		   ITA_leverage_up = yes
+		}   
+		   ENG = { add_ideas = ENG_italian_dockyards }
+		   ITA = { add_ideas = ITA_lost_dockyards }
 	}
 	option = { 
 	name = italy.363.b
