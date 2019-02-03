@@ -1028,7 +1028,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_cede_horn_of_africa
-		icon = GFX_focus_chi_british_cooperation
+		icon = GFX_goal_molotov_ribbentrop_pact
 		cost = 10.00
 		prerequisite = {
 			focus = ITA_finish_railway
