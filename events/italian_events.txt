@@ -865,15 +865,15 @@ news_event = {
 	}
 	
 	country_event = {
-	id = italy.3533
-	title = italy.3533.t
-	desc = italy.3533.d
+	id = italy.353
+	title = italy.353.t
+	desc = italy.353.d
 	picture = GFX_report_event_generic_read_write
 	is_triggered_only = yes
 
-	option = { `
+	option = {
 		
-		name = italy.3533.a
+		name = italy.353.a
 
 		ENG = {
 			annex_country = {
@@ -955,7 +955,7 @@ news_event = {
 	}
 
 	option = { 
-	name = italy.3533.b
+	name = italy.353.b
 
 		ITA = {country_event = italy.3001}
 		

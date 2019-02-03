@@ -578,6 +578,7 @@ ITA_leverage = {
 			has_idea = ITA_leverage_8
 			has_idea = ITA_leverage_9
 			}
+			FRA = {owns_state = 767}
 		}
 
 		complete_effect = { 
@@ -611,6 +612,7 @@ ITA_leverage = {
 			has_idea = ITA_leverage_8
 			has_idea = ITA_leverage_9
 			}
+			ENG = {owns_state = 116}
 		}
 
 		complete_effect = { 
@@ -644,6 +646,7 @@ ITA_leverage = {
 			has_idea = ITA_leverage_8
 			has_idea = ITA_leverage_9
 			}
+			FRA = {owns_state = 1}
 		}
 
 		complete_effect = { 
@@ -678,6 +681,10 @@ ITA_leverage = {
 			has_idea = ITA_leverage_8
 			has_idea = ITA_leverage_9
 			}
+			OR = {
+			FRA = {owns_state = 665}
+			FTU = {owns_state = 665}
+			}
 		}
 
 		complete_effect = { 
@@ -711,6 +718,10 @@ ITA_leverage = {
 			has_idea = ITA_leverage_7
 			has_idea = ITA_leverage_8
 			has_idea = ITA_leverage_9
+			}
+			OR = {
+				ENG = {owns_state = 452}
+				EGY = {owns_state = 452}
 			}
 		}
 
