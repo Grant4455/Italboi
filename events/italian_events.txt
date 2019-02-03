@@ -841,8 +841,7 @@ news_event = {
 	name = italy.3002.a
 	}
 	}
-
-	country_event = {
+			country_event = {
 	id = italy.363
 	title = italy.363.t
 	desc = italy.363.d
@@ -851,114 +850,17 @@ news_event = {
 
 	option = { 
 	name = italy.363.a
-	   
 	    hidden_effect = {
-	       ITA_leverage_up = yes
-		   ITA_leverage_up = yes
+		
+	       ITA = { ITA_leverage_up = yes
+		   ITA_leverage_up = yes }
 		}   
 		   ENG = { add_ideas = ENG_italian_dockyards }
 		   ITA = { add_ideas = ITA_lost_dockyards }
 	}
 	option = { 
 	name = italy.363.b
-		}
 	}
-	
-	country_event = {
-	id = italy.3533
-	title = italy.3533.t
-	desc = italy.3533.d
-	picture = GFX_report_event_generic_read_write
-	is_triggered_only = yes
-
-	option = { `
+	}
 		
-		name = italy.3533.a
-
-		ENG = {
-			annex_country = {
-    			target = EGY
-    			transfer_troops = yes
-			}
-		}
-
-		ITA = {
-			add_timed_idea = {
-				idea = ITA_railway
-				days = 180 }
-			country_event = italy.3002
-		}
-
-		446 = {
-	   		add_building_construction = {
-    			type = infrastructure
-    			level = 2
-    			instant_build = yes
-			}
-		}
-		456 = {
-	   		add_building_construction = {
-    			type = infrastructure
-    			level = 2
-    			instant_build = yes
-			}
-		}
-		551 = {
-	   		add_building_construction = {
-    			type = infrastructure
-    			level = 2
-    			instant_build = yes
-			}
-		}
-		547 = {
-	   		add_building_construction = {
-    			type = infrastructure
-    			level = 2
-    			instant_build = yes
-			}
-		}
-		549 = {
-	   		add_building_construction = {
-    			type = infrastructure
-    			level = 2
-    			instant_build = yes
-			}
-		}
-		546 = {
-	   		add_building_construction = {
-    			type = infrastructure
-    			level = 2
-    			instant_build = yes
-			}
-		}
-		545 = {
-	   		add_building_construction = {
-    			type = infrastructure
-    			level = 2
-    			instant_build = yes
-			}
-		}
-		542 = {
-	   		add_building_construction = {
-    			type = infrastructure
-    			level = 2
-    			instant_build = yes
-			}
-		}
-		681 = {
-	   		add_building_construction = {
-    			type = infrastructure
-    			level = 2
-    			instant_build = yes
-			}
-		}
-	}
-
-	option = { 
-	name = italy.3533.b
-
-		ITA = {country_event = italy.3001}
-		
-		}
-	}
 	

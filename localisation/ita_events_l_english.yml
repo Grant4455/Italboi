@@ -97,7 +97,11 @@
  italy.3002.t:0 "The allies said yes!"
  italy.3002.d:0 "The allies have agreed to the proposal we recently put forward, thus increasing our leverage with them! "
  italy.3002.a:0 "Wonderful news!"
-   
+ italy.363.t:0 "Italy offers to transfer half of her naval production!"
+ italy.363.d:0 "The Italians have posited to us that, should we give further diplomatic recognition to their sacrifice during the war (Which would give them further power to leverage over us), they would give us half of their naval production."
+ italy.363.a:0 "More ships? Send our confirmation immediatly!"
+ italy.363.b:0 "We cannot allow the italians more political leverage."
+
 
  ####### Leverage & Related Events #######
 
