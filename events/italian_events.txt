@@ -683,7 +683,7 @@ news_event = {
 
 		option = { 
 		name = italy.2010.a
-		ITA_leverage_down = yes
+		ITA = {ITA_leverage_down = yes}
 		}
 	}
 
@@ -697,7 +697,7 @@ news_event = {
 
 		option = { 
 		name = italy.2011.a
-		ITA_leverage_down = yes
+		ITA = {ITA_leverage_down = yes}
 		}
 	}
 
@@ -711,7 +711,7 @@ news_event = {
 
 		option = { 
 		name = italy.2012.a
-		ITA_leverage_down = yes
+		ITA = {ITA_leverage_down = yes}
 		}
 	}
 
@@ -783,33 +783,37 @@ news_event = {
 	}
 
 	country_event = {
-	id = ITA.252
-	title = ITA.252.t
-	desc = ITA.252.d
+	id = italy.252
+	title = italy.252.t
+	desc = itally.252.d
 	picture = GFX_report_event_generic_read_write
 	is_triggered_only = yes
 
 		option = { 
-		name = ITA.252.a
+		name = italy.252.a
 
 			ai_chance = { factor = 100 }	
 
-			ITA_leverage_up = yes
-			FRA = {
-				load_oob = {
-					ITA_Mountaineers_2_FRA 
+			
+				hidden_effect = {
+					FRA = {
+						load_oob = {
+							ITA_Mountaineers_2_FRA 
+						}
+					}	
 				}
-			}
 
 			ITA = {
 				add_manpower = -13400
+				country_event = italy.3002
+				ITA_leverage_up = yes
 			}
 		}
 
 		option = { 
-		name = ITA.252.b
+		name = italy.252.b
 			ITA = {
-				country_event = {}
+				country_event = italy.3001
 			}
 			ai_chance = { factor = 0 }
 		}

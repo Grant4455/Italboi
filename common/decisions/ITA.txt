@@ -565,6 +565,8 @@ ITA_leverage = {
 
 		cost = 5
 
+		fire_only_once = yes
+
 		available = {
 			OR = {
 			has_idea = ITA_leverage_2
@@ -595,6 +597,8 @@ ITA_leverage = {
 		icon = generic_operation
 
 		cost = 5
+
+		fire_only_once = yes
 
 		available = {
 			OR = {
@@ -627,6 +631,8 @@ ITA_leverage = {
 
 		cost = 5
 
+		fire_only_once = yes
+
 		available = {
 			OR = {
 			has_idea = ITA_leverage_2
@@ -657,6 +663,8 @@ ITA_leverage = {
 		icon = generic_operation
 
 		cost = 5
+
+		fire_only_once = yes
 
 		available = {
 			OR = {
@@ -689,6 +697,8 @@ ITA_leverage = {
 		icon = generic_operation
 
 		cost = 5
+
+		fire_only_once = yes
 
 		available = {
 			OR = {
@@ -723,6 +733,8 @@ ITA_leverage = {
 		icon = generic_operation
 
 		cost = 5
+
+		fire_only_once = yes
 
 		available = {
 			OR = {
