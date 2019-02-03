@@ -15,7 +15,6 @@ ITA_leverage_clear_all = {
 
 #Important to put HIGHEST first
 ITA_leverage_up = {
-	# level 5 not relevant. Cannot go above.
 	custom_effect_tooltip = ITA_leverage_up_tt
 	if = {
 		limit = { has_idea = ITA_leverage_8 }
@@ -52,36 +51,45 @@ ITA_leverage_up = {
 			add_idea = ITA_leverage_5
 		}
 	}
-	else_if = {
+	if = {
 		limit = { has_idea = ITA_leverage_3 }
 		swap_ideas = {
 			remove_idea = ITA_leverage_3
 			add_idea = ITA_leverage_4
 		}
 	}
-	else_if = {
+	if = {
 		limit = { has_idea = ITA_leverage_2 }
 		swap_ideas = {
 			remove_idea = ITA_leverage_2
 			add_idea = ITA_leverage_3
 		}
 	}
-	else_if = {
+	if = {
 		limit = { has_idea = ITA_leverage_1 }
 		swap_ideas = {
 			remove_idea = ITA_leverage_1
 			add_idea = ITA_leverage_2
 		}		
 	}
-	else_if = {
+	if = {
 		limit = { has_idea = ITA_leverage_0 }
 		swap_ideas = {
-			remove_idea = ITA_leveraget_0
+			remove_idea = ITA_leverage_0
 			add_idea = ITA_leverage_1
 		}		
 	}
-	else_if = {
+	if = {
+		limit = { NOT = { has_idea = ITA_leverage_0 } }
 		limit = { NOT = { has_idea = ITA_leverage_1 } }
+		limit = { NOT = { has_idea = ITA_leverage_2 } }
+		limit = { NOT = { has_idea = ITA_leverage_3 } }
+		limit = { NOT = { has_idea = ITA_leverage_4 } }
+		limit = { NOT = { has_idea = ITA_leverage_5 } }
+		limit = { NOT = { has_idea = ITA_leverage_6 } }
+		limit = { NOT = { has_idea = ITA_leverage_7 } }
+		limit = { NOT = { has_idea = ITA_leverage_8 } }
+		limit = { NOT = { has_idea = ITA_leverage_9 } }
 		add_ideas = ITA_leverage_1
 	}
 }

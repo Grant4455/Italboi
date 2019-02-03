@@ -101,7 +101,7 @@
 
  ####### Leverage & Related Events #######
 
- ITA.252.t:0 "Italy offers to raise Alpini"
- ITA.252.d:0 "The Itallian embassy has come to us with an interesting offer; They will raise, equip, and train two divisions of elite Alpini for our army. This could cover some gaps in our defense spending, but accepting it could make use seem dependant."
- ITA.252.a:0 "Absolutely, it will help in our defense."
- ITA.252.b:0 "We can't allow ourselves to become indebted." 
+ italy.252.t:0 "Italy offers to raise Alpini"
+ italy.252.d:0 "The Itallian embassy has come to us with an interesting offer; They will raise, equip, and train two divisions of elite Alpini for our army. This could cover some gaps in our defense spending, but accepting it could make use seem dependant."
+ italy.252.a:0 "Absolutely, it will help in our defense."
+ italy.252.b:0 "We can't allow ourselves to become indebted." 
