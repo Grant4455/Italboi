@@ -808,11 +808,13 @@ news_event = {
 
 		option = { 
 		name = ITA.252.b
-
+			ITA = {
+				country_event = {}
+			}
 			ai_chance = { factor = 0 }
 		}
 	}
 
-	
+
 		
 	
